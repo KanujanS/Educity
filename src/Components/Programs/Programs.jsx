@@ -1,35 +1,35 @@
 import React from 'react';
 import './Programs.css';
-import Program1 from '../../assets/Program-1.png';
-import Program2 from '../../assets/Program-2.png';
-import Program3 from '../../assets/Program-3.png';
-import ProgramIcon1 from '../../assets/Program-icon-1.png';
-import ProgramIcon2 from '../../assets/Program-icon-2.png';
-import ProgramIcon3 from '../../assets/Program-icon-3.png';
+import program1 from '../../assets/program-1.png';
+import program2 from '../../assets/program-2.png';
+import program3 from '../../assets/program-3.png';
+import programIcon1 from '../../assets/program-icon-1.png';
+import programIcon2 from '../../assets/program-icon-2.png';
+import programIcon3 from '../../assets/program-icon-3.png';
 
 const Programs = () => {
   return (
     <div className='Programs'>
       <div className='Program'>
-        <img src={Program1} alt="Graduation Degree Program" />
+        <img src={program1} alt="Graduation Degree Program" />
         <div className="caption">
-          <img src={ProgramIcon1} alt="Graduation Icon" />
+          <img src={programIcon1} alt="Graduation Icon" />
           <p>Graduation Degree</p>
         </div>
       </div>
 
       <div className='Program'>
-        <img src={Program2} alt="Master's Degree Program" />
+        <img src={program2} alt="Master's Degree Program" />
         <div className="caption">
-          <img src={ProgramIcon2} alt="Master's Icon" />
+          <img src={programIcon2} alt="Master's Icon" />
           <p>Master's Degree</p>
         </div>
       </div>
 
       <div className='Program'>
-        <img src={Program3} alt="Postgraduate Degree Program" />
+        <img src={program3} alt="Postgraduate Degree Program" />
         <div className="caption">
-          <img src={ProgramIcon3} alt="Postgraduate Icon" />
+          <img src={programIcon3} alt="Postgraduate Icon" />
           <p>Postgraduate Degree</p>
         </div>
       </div>
