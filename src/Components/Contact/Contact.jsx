@@ -39,7 +39,7 @@ const Contact = () => {
             <ul>
                 <li><img src={mail_icon} alt="" />kanujansk@gmail.com</li>
                 <li><img src={phone_icon} alt="" />+94 770280756</li>
-                <li><img src={location_icon} alt="" />wellawatta, Colombo <br />Sri Lanka</li>
+                <li><img src={location_icon} alt="" />Wellawatta, Colombo, <br />Sri Lanka.</li>
             </ul>
         </div>
         <div className="contact-col">
